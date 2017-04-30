@@ -1,5 +1,6 @@
 import { injectable } from 'inversify';
 
+import "reflect-metadata";
 export interface IUser {
   email: string;
   name: string;
